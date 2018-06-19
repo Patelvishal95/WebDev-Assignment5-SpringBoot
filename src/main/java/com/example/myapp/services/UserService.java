@@ -2,15 +2,9 @@ package com.example.myapp.services;
 
 import com.example.myapp.model.User;
 import com.example.myapp.repositories.UserRepository;
-import com.sun.deploy.net.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.text.html.HTMLDocument;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
